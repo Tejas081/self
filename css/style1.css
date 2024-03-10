@@ -1,0 +1,201 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Home section styles */
+.home {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.home-text {
+    margin-top: 40px;
+}
+
+.home-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.home-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.home-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* About section styles */
+.about {
+    padding: 100px 20px;
+    background-color: #fff;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    margin-left: 50px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Skills section styles */
+.skills {
+    padding: 100px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bars-box {
+    margin-bottom: 30px;
+}
+
+.bars-box h3 {
+    margin-bottom: 10px;
+}
+
+.light-bar {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.percent-bar {
+    height: 10px;
+    border-radius: 5px;
+}
+
+/* Services section styles */
+.services {
+    padding: 100px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.services-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services-box {
+    flex-basis: 20%;
+    margin-bottom: 30px;
+}
+
+.services-box i {
+    font-size: 48px;
+    color: #333;
+}
+
+.services-box h3 {
+    margin-top: 20px;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 100px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.contact-form {
+    margin-top: 40px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input[type="button"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form input[type="button"]:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+.footer {
+    padding: 20px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-social a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+/* Copyright styles */
+ .copyright {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
